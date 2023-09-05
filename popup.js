@@ -4,6 +4,8 @@ document.getElementById('send').addEventListener('click', sendUserInput);
 //拿到选中项的值  option中value值
 // console.log(select.text()); //拿到选中项的文本
 
+
+
 // Trigger send button with enter key
 document.getElementById('userInput').addEventListener('keydown', (event) => {
   if (event.key === 'Enter') {
